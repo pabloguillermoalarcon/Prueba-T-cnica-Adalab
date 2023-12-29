@@ -41,4 +41,7 @@ Instalación:
     "poison"
   ]
 }
-4- Dentro de dicha carpeta se encontrara el archivo 
+4- Abrir visual estudio code y desde el mismo programa abrir la carpeta adalab_back.
+5- Abrir la terminar de visual estudio code (powershell) y ejecutar el primer comando mongod o bien dirigirse a la carpeta C:\Program Files\MongoDB\Server\7.0\bin y ejecutar el programa que se llama asi mongod (la version 7.0 es la que tengo instalado en mi si tienes otra, saldra otro numero)
+6- Abrir nuevamente la terminar de visual estudio code (powershell) una nueva y ejecutar el comando node index.js o bien nodemon index.js(recordar que para este ultimo debes tener instalado nodemon de manera global o bien instalarlo con npm i -g nodemon).
+7- Ingresar al navegador y colocar la siguiente url http://localhost:3000/, como se vera ya te muestra la lista de pockemons y si se desea ingresar a ver uno en particular colocar la siguiente url http://localhost:3000/1 o http://localhost:3000/bulbasaur
