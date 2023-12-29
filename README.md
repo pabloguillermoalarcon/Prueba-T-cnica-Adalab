@@ -8,7 +8,7 @@ Instalación:
 
 
 
-Carpeta adalab_front: Contiene la API de la prueba tecnica.
+Carpeta adalab_back: Contiene la API de la prueba tecnica.
 Requisitos previos: Tener instalado Nodejs, MognoDBCompas(o GUI similar), Visual Estudio Code.
 Instalación:
 1- Una vez descargado el archivo completo alojar o ubicar la carpeta adalab_back en un sector o lugar del pc.
