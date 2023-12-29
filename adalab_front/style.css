@@ -1,0 +1,106 @@
+@font-face {
+    font-family: 'titulosPockemon';
+    src: url('fonts/Ubuntu-Medium.ttf');
+}
+@font-face {
+    font-family: 'textosPockemon';
+    src: url('fonts/Ubuntu-Regular.ttf');
+}
+
+body{
+    background-color: #ffe62c;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 1%;
+    padding-bottom: 2%;
+}
+.seccion1{
+    background-color: #dfdfdf;
+    text-align: center;
+}
+.seccion2{
+    margin-top: -24px;
+    margin-bottom: 4px;
+}
+.seccion3{
+    background-color: #ffffff;
+    padding-left: 15px;
+    padding-top: 15px;
+    padding-bottom: 25px;
+}
+#pockemons{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+a{
+    text-decoration: none;
+}
+article{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 40px;
+    box-shadow: 0px 0px 7px rgb(104, 103, 103);
+}
+img{
+    width: 50%;
+}
+.idPockemon{
+    color: #9c8772;
+    background-color: #d1cdca;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-weight: 600;
+    font-family: textosPockemon;
+}
+.nombrePockemon{
+    color: black;
+    font-family: titulosPockemon;
+    font-size: 22px;
+    text-transform: capitalize;
+    display: block;
+    margin-bottom: 8px;
+}
+.habilidadesPockemon{
+    color: #9c8772;
+    border: 2px solid #9c877286;
+    padding: 2px;
+    border-radius: 8px;
+    margin-right: 4px;
+    font-family: textosPockemon;
+    text-transform: uppercase;
+}
+.evolucionPokemon{
+    border-left-color: #5d2f1a;
+    border-left-style: solid;
+    border-left-width: 6px;
+    padding-left: 8px;
+    margin-top: 10px;
+}
+.evolucionPokemon span:first-child{
+    color: #9c8772;
+    font-family: textosPockemon;
+    font-size: 17px;
+}
+.evolucionPokemon span:last-child{
+    color: #5d2f1a;
+    font-family: textosPockemon;
+    font-size: 25px;
+}
+.filtro{
+    width: 100%;
+    height: 40px;
+    margin-bottom: 25px;
+    border: 0px;
+    background-color: #fffcec;
+    box-shadow: 0px 0px 10px rgb(104, 103, 103);
+}
+#botonVolver{
+    color: white;
+    background-color: #5d2f1a;
+    padding: 25px;
+    margin-left: 35px;
+    margin-right: 35px;
+    font-family: textosPockemon;
+}
